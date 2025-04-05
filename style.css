@@ -1,9 +1,15 @@
-.bg-color {
-    background-color: #330000;
+.navbar {
+    background-color: #660000;
+    font-weight: 600;
 }
 
-.bg-nav-color {
+.bg-color {
     background-color: #330000;
+    color: white;
+}
+
+.form {
+    margin: auto 25px;
 }
 
 .header-container {
@@ -13,7 +19,7 @@
     font-style: normal;
     font-size: 500px;
     color: white;
-    margin-top: 70px;
+    margin: 75px auto 25px auto;
 }
 
 .navbar-brand {
@@ -28,4 +34,5 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+    padding: 25px;
 }
