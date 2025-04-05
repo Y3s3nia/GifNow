@@ -1,11 +1,9 @@
 .navbar {
-    background-color: #660000;
-    font-weight: 600;
+    background-color: #330000;
 }
 
 .bg-color {
-    background-color: #330000;
-    color: white;
+    background-color: #660000;
 }
 
 .form {
@@ -17,15 +15,23 @@
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 500px;
     color: white;
-    margin: 75px auto 25px auto;
+    margin: 85px auto 30px auto;
 }
 
 .navbar-brand {
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.navbar-section-title {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 .section-title {
@@ -35,4 +41,9 @@
     font-style: normal;
     color: white;
     padding: 25px;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
 }
