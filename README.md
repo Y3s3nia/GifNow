@@ -18,4 +18,7 @@ A website that lets you find images using key words.
 
 ## Improvements 
 These are a few improvemnts that can be made on this website:
+1. Making the website a little more interactive.
+2. The layout can be arranged in a better way.
+3. Being able to display more gifs and stickers. 
  
