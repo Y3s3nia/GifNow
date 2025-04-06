@@ -47,3 +47,7 @@
 .container {
     display: flex;
 }
+
+.gif-item {
+    align-items: center;
+}
