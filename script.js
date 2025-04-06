@@ -51,3 +51,23 @@ function displaySticker(stickerData) {
         .map(sticker => renderSticker(sticker))
         .join('');
 }
+
+async function fetchGifOpen() {
+    const keyAPI = 'JqmvYQRoKo3mKEnXit47ikgZRqWVDXVa';
+    const URL= `https://api.giphy.com/v1/gifs/search?api_key=${keyAPI}&q=Hello&limit=18`;
+    const data = await fetch(URL);
+    const response = await data.json();
+    displayGif(response.data);
+    return response.data;
+}
+
+async function fetchStickerOpen() {
+    const keyAPI = 'JqmvYQRoKo3mKEnXit47ikgZRqWVDXVa';
+    const URL= `https://api.giphy.com/v1/stickers/search?api_key=${keyAPI}&q=Hello&limit=18`;
+    const data = await fetch(URL);
+    const response = await data.json();
+    displaySticker(response.data);
+    return response.data;
+}
+fetchGifOpen();
+fetchStickerOpen();
