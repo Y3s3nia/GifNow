@@ -8,7 +8,7 @@ search.addEventListener('click', fetchSticker);
 
 async function fetchGif() {
     const keyAPI = 'JqmvYQRoKo3mKEnXit47ikgZRqWVDXVa';
-    const URL= `https://api.giphy.com/v1/gifs/search?api_key=${keyAPI}&q=${searchInput.value}&limit=15`;
+    const URL= `https://api.giphy.com/v1/gifs/search?api_key=${keyAPI}&q=${searchInput.value}&limit=18`;
     const data = await fetch(URL);
     const response = await data.json();
     displayGif(response.data);
@@ -17,7 +17,7 @@ async function fetchGif() {
 
 async function fetchSticker() {
     const keyAPI = 'JqmvYQRoKo3mKEnXit47ikgZRqWVDXVa';
-    const URL= `https://api.giphy.com/v1/stickers/search?api_key=${keyAPI}&q=${searchInput.value}&limit=15`;
+    const URL= `https://api.giphy.com/v1/stickers/search?api_key=${keyAPI}&q=${searchInput.value}&limit=18`;
     const data = await fetch(URL);
     const response = await data.json();
     displaySticker(response.data);
